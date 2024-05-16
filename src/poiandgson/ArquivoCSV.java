@@ -16,11 +16,13 @@ import poiandgson.Pessoa.Pessoa;
  *
  * @author queir
  */
-public class LerArquivoTXT {
+public class ArquivoCSV {
     public static void main(String[] args) throws FileNotFoundException {
-        
-        // Entrada de dados
-        FileInputStream entradaArquivo=new FileInputStream(new File("C:\\Users\\queir\\OneDrive\\Documentos\\NetBeansProjects\\arquivo.txt"));
+         // arquivo csv também é uma estrutura muito utilizada para arquivo EXCEL
+         
+           // Entrada de dados
+           // basta colocar .csv (se já obtiver esse arquivo em bloco de notas configure o formato para csv)
+        FileInputStream entradaArquivo=new FileInputStream(new File("C:\\Users\\queir\\OneDrive\\Documentos\\NetBeansProjects\\arquivo.csv"));
         
         // Vamos ler as linhas
         
